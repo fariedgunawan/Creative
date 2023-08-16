@@ -1,0 +1,29 @@
+#hasil-body-pria {
+  background: url("/src/assets/background4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hasil-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+}
+
+.hasil-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hasil-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+  }
