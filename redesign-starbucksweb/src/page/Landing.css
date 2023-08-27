@@ -1,0 +1,16 @@
+#landing-body {
+  background: linear-gradient(45deg, rgba(204, 16, 235, 0.2) 0%, rgba(226, 8, 204, 0.2) 100%), linear-gradient(135deg, #00d27c 35.63%, #ededed 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 35px;
+}
+
+.hero-img .img-1 {
+  transform: rotate(-30.483deg);
+}
+
+.hero-img .img-2 {
+  transform: rotate(20.362deg);
+}
