@@ -1,0 +1,14 @@
+#skill-body {
+  background-color: #121212;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: max-content;
+  padding: 35px;
+}
+
+@media (min-width: 640px) {
+  #skill-body {
+    height: 100vh;
+  }
+}
