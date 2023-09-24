@@ -24,7 +24,7 @@ const Landing = () => {
       <div className="hero-landing flex flex-col font-poppins mt-[2rem] sm:flex-row-reverse sm:justify-between sm:items-center">
         <div className="hero-illus flex justify-center">
           <div className="bg-black rounded-[50%] w-[400px] h-[400px] blur-[250px] z-0 translate-x-[480px] translate-y-[150px] hidden sm:flex" />
-          <img src={user} className="w-[500px] z-10 sm:w-[624px] sm:h-[644px]" />
+          <img src={user} className="w-[500px] z-10 sm:w-[600px] sm:h-[600px]" />
         </div>
         <div className="hero-caption mt-[2rem] sm:-mt-[3rem] sm:w-[490px]">
           <h2 className="text-2xl text-white sm:text-[40px] ">Halo, I'm</h2>
