@@ -3,6 +3,7 @@ import Nav from "../Element/Nav";
 import illus from "../assets/illustration.png";
 import ClientLogo from "../Element/ClientLogo";
 import Community from "../Element/Community";
+import illus2 from "../assets/illus2.png";
 const Landing = () => {
   return (
     <div className="landing-body font-inter">
@@ -49,6 +50,20 @@ const Landing = () => {
       {/*frame 4 */}
       <Community />
       {/*end frame 4 */}
+
+      {/*Unlock Section */}
+      <div className="unlock flex justify-between items-center px-[144px] mt-[4rem] gap-[7rem]">
+        <img src={illus2} />
+        <div className="caption">
+          <h2 className="text-[36px] font-semibold w-[100%]">The unseen of spending three years at Pixelgrade</h2>
+          <h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar
+            sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+          </h2>
+          <button>Learn More</button>
+        </div>
+      </div>
+      {/* end Unlock Section */}
     </div>
   );
 };
