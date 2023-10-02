@@ -344,6 +344,23 @@ const Landing = () => {
         </div>
       </div>
       {/*End Customer Section */}
+
+      {/*Comunity 2 section*/}
+      <div className="comunity-2 flex justify-center items-center mt-[28px]">
+        <div className="comunity-2-container w-[1110px]">
+          <div className="comunity-2-title text-center">
+            <h2 className="text-[36px] font-semibold text-[#4D4D4D] leading-[44px]">Caring is the new marketing</h2>
+          </div>
+          <div className="comunity-2-desc mt-[8px]">
+            <div className="comunity-2-desc-container flex justify-center">
+              <h2 className="text-[16px] font-medium text-[#717171] w-[628px] text-center leading-[24px]">
+                The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*end Comunity 2 section*/}
     </div>
   );
 };
