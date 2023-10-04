@@ -7,6 +7,10 @@ import illus2 from "../assets/illus2.png";
 import clubs from "../assets/clubs.png";
 import pana from "../assets/pana.png";
 import tesla from "../assets/tesla.png";
+import galery1 from "../assets/galery-1.png";
+import galery2 from "../assets/galery-2.png";
+import galery3 from "../assets/galery-3.png";
+
 const Landing = () => {
   return (
     <div className="landing-body font-inter">
@@ -361,6 +365,23 @@ const Landing = () => {
         </div>
       </div>
       {/*end Comunity 2 section*/}
+
+      {/*galler section */}
+
+      <div className="galery flex justify-between px-[144px]">
+        <div className="galery-content-1 flex flex-col">
+          <img src={galery1} />
+          <div className="gacontent-1 flex flex-col items-center p-[16px] gap-[16px] bg-[#F5F7FA]">
+            <div className="gacontent-1-title">
+              <h2 className="w-[285px] text-center text-[20px] font-semibold text-[#717171] leading-[24px]">Creating Streamlined Safeguarding Processes with OneRen</h2>
+            </div>
+          </div>
+        </div>
+        <div className="galery-content-2"></div>
+        <div className="galery-content-3"></div>
+      </div>
+
+      {/*end gallery section */}
     </div>
   );
 };
