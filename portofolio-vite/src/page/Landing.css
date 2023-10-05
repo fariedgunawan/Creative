@@ -1,0 +1,14 @@
+#body-landing {
+  background-color: #121212;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: max-content;
+  padding: 35px;
+}
+
+@media (min-width: 640px) {
+  #body-landing {
+    height: 100vh;
+  }
+}
