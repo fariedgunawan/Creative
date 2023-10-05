@@ -7,9 +7,9 @@ import illus2 from "../assets/illus2.png";
 import clubs from "../assets/clubs.png";
 import pana from "../assets/pana.png";
 import tesla from "../assets/tesla.png";
-import galery1 from "../assets/galery-1.png";
-import galery2 from "../assets/galery-2.png";
-import galery3 from "../assets/galery-3.png";
+import Galery from "../Element/Galery";
+import whiteright from "../assets/whiteright.png";
+import Footer from "../Element/Footer";
 
 const Landing = () => {
   return (
@@ -366,22 +366,25 @@ const Landing = () => {
       </div>
       {/*end Comunity 2 section*/}
 
-      {/*galler section */}
+      {/*galery section */}
+      <Galery />
+      {/*end galery section */}
 
-      <div className="galery flex justify-between px-[144px]">
-        <div className="galery-content-1 flex flex-col">
-          <img src={galery1} />
-          <div className="gacontent-1 flex flex-col items-center p-[16px] gap-[16px] bg-[#F5F7FA]">
-            <div className="gacontent-1-title">
-              <h2 className="w-[285px] text-center text-[20px] font-semibold text-[#717171] leading-[24px]">Creating Streamlined Safeguarding Processes with OneRen</h2>
-            </div>
-          </div>
-        </div>
-        <div className="galery-content-2"></div>
-        <div className="galery-content-3"></div>
+      {/*bottom text section */}
+      <div className="bottom-text flex flex-col items-center py-[32px] gap-[32px] bg-[#F5F7FA]">
+        <h2 className="w-[887px] text-center text-[64px] font-semibold leading-[76px] text-[#263238]">Pellentesque suscipit fringilla libero eu.</h2>
+        <button className="bg-[#4CAF4F] flex items-center gap-[8px] px-[32px] py-[14px] text-white text-[16px] rounded-[4px]">
+          Get a Demo{" "}
+          <span>
+            <img src={whiteright} />
+          </span>
+        </button>
       </div>
+      {/*end bottom text section */}
 
-      {/*end gallery section */}
+      {/*footer section */}
+      <Footer />
+      {/*end of footer section */}
     </div>
   );
 };
