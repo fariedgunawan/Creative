@@ -94,7 +94,7 @@ const Footer = () => {
         <div className="footer-col-3">
           <h2 className="w-[160px] text-[20px] font-semibold">Stay up to date</h2>
           <div className="input-footer flex justify-between w-[255px] h-[40px] bg-gray-600 items-center px-[12px] rounded-[8px] mt-[24px]">
-            <input type="text" placeholder="Your email address" className="bg-transparent" />
+            <input type="text" placeholder="Your email address" className="bg-transparent " />
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
               <g clip-path="url(#clip0_349_867)">
                 <path
