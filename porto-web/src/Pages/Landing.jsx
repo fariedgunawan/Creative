@@ -11,6 +11,7 @@ import company from "../assets/company.png";
 import ccna from "../assets/ccna.png";
 import aselab from "../assets/aselab.png";
 import sanbercode from "../assets/sanbercode.png";
+import fiverr from "../assets/fiverr.png";
 const Landing = () => {
   return (
     <div className="body-landing font-epilogue text-[#2D2D2D] font-medium bg-white min-h-max">
@@ -165,6 +166,40 @@ const Landing = () => {
         </div>
       </div>
       {/*end certification */}
+
+      {/*find me */}
+      <div className="landing-find-me mt-[50px]">
+        <div className="find-me-title justify-center flex">
+          <h2 className="text-[20px] font-semibold">Find Me</h2>
+        </div>
+        <div className="find-me-list flex justify-center mt-[40px] gap-[40px]">
+          {/*start list */}
+          <div className="find-me-content-1 flex flex-col items-center">
+            <img src={fiverr} className="w-[35px]" alt="" />
+            <h2 className="font-semibold mt-[10px]">Fiverr</h2>
+          </div>
+          {/*end list */}
+          {/*start list */}
+          <div className="find-me-content-1 flex flex-col items-center">
+            <img src={fiverr} className="w-[35px]" alt="" />
+            <h2 className="font-semibold mt-[10px]">Fiverr</h2>
+          </div>
+          {/*end list */}
+          {/*start list */}
+          <div className="find-me-content-1 flex flex-col items-center">
+            <img src={fiverr} className="w-[35px]" alt="" />
+            <h2 className="font-semibold mt-[10px]">Fiverr</h2>
+          </div>
+          {/*end list */}
+          {/*start list */}
+          <div className="find-me-content-1 flex flex-col items-center">
+            <img src={fiverr} className="w-[35px]" alt="" />
+            <h2 className="font-semibold mt-[10px]">Fiverr</h2>
+          </div>
+          {/*end list */}
+        </div>
+      </div>
+      {/*end find me */}
     </div>
   );
 };
