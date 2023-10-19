@@ -106,7 +106,7 @@ const Landing = () => {
           {/*end list */}
         </div>
         <div className="project-read mt-[20px] sm:mt-[70px]">
-          <h2 className="flex items-center text-[16px] text-[#4CAF4F] sm:text-[24px]">
+          <h2 className="flex items-center text-[16px] text-[#4CAF4F] sm:text-[20px]">
             Read More{" "}
             <span>
               {" "}
@@ -127,35 +127,35 @@ const Landing = () => {
       {/*end of project */}
 
       {/*certification */}
-      <div className="landing-certification flex flex-col items-center mt-[50px]">
+      <div className="landing-certification flex flex-col mt-[50px] sm:px-[55px]">
         <div className="certification-title">
-          <h2 className="text-[20px] font-semibold">Certification</h2>
+          <h2 className="text-[20px] font-semibold text-center sm:text-right sm:text-[30px]">Certification</h2>
         </div>
-        <div className="certification-list mt-[50px]">
+        <div className="certification-list mt-[50px] flex flex-col items-center sm:flex sm:flex-row sm:w-full sm:justify-between">
           {/*start list */}
           <div className="project-card-1 flex flex-col">
-            <img src={ccna} className="w-[300px]" />
-            <h2 className="mt-[14px] text-[17px] font-semibold">CCNA Bootcamp </h2>
+            <img src={ccna} className="w-[300px] sm:w-[400px]" />
+            <h2 className="mt-[14px] text-[17px] font-semibold sm:text-[20px]">CCNA Bootcamp </h2>
             <h2 className="mt-[15px] text-[15px]">Bootcamp</h2>
           </div>
           {/*end list */}
           {/*start list */}
-          <div className="project-card-1 flex flex-col mt-[40px]">
-            <img src={aselab} className="w-[300px]" />
-            <h2 className="mt-[14px] text-[17px] font-semibold">Software Modeling Workshop</h2>
+          <div className="project-card-1 flex flex-col mt-[40px] sm:mt-0">
+            <img src={aselab} className="w-[300px] sm:w-[400px]" />
+            <h2 className="mt-[14px] text-[17px] font-semibold sm:mt-[30px] sm:text-[20px]">Software Modeling Workshop</h2>
             <h2 className="mt-[15px] text-[15px]">Workshop</h2>
           </div>
           {/*end list */}
           {/*start list */}
-          <div className="project-card-1 flex flex-col mt-[40px]">
-            <img src={sanbercode} className="w-[300px]" />
-            <h2 className="mt-[14px] text-[17px] font-semibold">React-Native Bootcamp</h2>
+          <div className="project-card-1 flex flex-col mt-[40px] sm:mt-0">
+            <img src={sanbercode} className="w-[300px] sm:w-[400px]" />
+            <h2 className="mt-[14px] text-[17px] font-semibold sm:text-[20px]">React-Native Bootcamp</h2>
             <h2 className="mt-[15px] text-[15px]">Bootcamp</h2>
           </div>
           {/*end list */}
         </div>
-        <div className="certification-read mt-[20px]">
-          <h2 className="flex items-center text-[16px] text-[#4CAF4F]">
+        <div className="certification-read mt-[20px] sm:mt-[70px]">
+          <h2 className="flex items-center text-[16px] text-[#4CAF4F] justify-center sm:justify-start sm:text-[20px]">
             Read More{" "}
             <span>
               {" "}
