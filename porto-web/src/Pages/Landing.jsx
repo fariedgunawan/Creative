@@ -176,33 +176,33 @@ const Landing = () => {
       {/*end certification */}
 
       {/*find me */}
-      <div className="landing-find-me mt-[50px]">
-        <div className="find-me-title justify-center flex">
-          <h2 className="text-[20px] font-semibold">Find Me</h2>
+      <div className="landing-find-me mt-[50px] sm:px-[55px]">
+        <div className="find-me-title justify-center flex sm:justify-start">
+          <h2 className="text-[20px] font-semibold sm:text-[30px]">Find Me</h2>
         </div>
-        <div className="find-me-list flex justify-center mt-[40px] gap-[30px]">
+        <div className="find-me-list flex justify-center mt-[40px] gap-[30px] sm:gap-[153px]">
           {/*start list */}
           <div className="find-me-content-1 flex flex-col items-center">
-            <img src={fiverr} className="w-[25px]" alt="" />
-            <h2 className="font-semibold mt-[15px]">Fiverr</h2>
+            <img src={fiverr} className="w-[25px] sm:w-[45px]" alt="" />
+            <h2 className="font-semibold mt-[15px] sm:text-[20px]">Fiverr</h2>
           </div>
           {/*end list */}
           {/*start list */}
           <div className="find-me-content-1 flex flex-col items-center">
-            <img src={dribbble} className="w-[25px]" alt="" />
-            <h2 className="font-semibold mt-[15px]">Dribbble</h2>
+            <img src={dribbble} className="w-[25px] sm:w-[45px]" alt="" />
+            <h2 className="font-semibold mt-[15px] sm:text-[20px]">Dribbble</h2>
           </div>
           {/*end list */}
           {/*start list */}
           <div className="find-me-content-1 flex flex-col items-center">
-            <img src={github} className="w-[25px]" alt="" />
-            <h2 className="font-semibold mt-[15px]">GitHub</h2>
+            <img src={github} className="w-[25px] sm:w-[45px]" alt="" />
+            <h2 className="font-semibold mt-[15px] sm:text-[20px]">GitHub</h2>
           </div>
           {/*end list */}
           {/*start list */}
           <div className="find-me-content-1 flex flex-col items-center">
-            <img src={linkedin} className="w-[25px]" alt="" />
-            <h2 className="font-semibold mt-[15px]">LinkedIn</h2>
+            <img src={linkedin} className="w-[25px] sm:w-[45px]" alt="" />
+            <h2 className="font-semibold mt-[15px] sm:text-[20px]">LinkedIn</h2>
           </div>
           {/*end list */}
         </div>
@@ -210,18 +210,18 @@ const Landing = () => {
       {/*end find me */}
 
       {/*about me */}
-      <div className="landing-about-me flex flex-col mt-[50px] items-center bg-slate-100 py-[30px]">
-        <img src={faried} className="w-[220px]" alt="" />
-        <div className="landing-about-caption px-[55px] mt-[40px]">
-          <h2 className="font-semibold text-[20px]">About Me</h2>
-          <h2 className="text-justify text-[14px] mt-[20px]">
+      <div className="landing-about-me flex flex-col mt-[50px] items-center bg-slate-100 py-[30px] sm:px-[55px] sm:flex-row sm:gap-[126px] sm:mt-[100px]">
+        <img src={faried} className="w-[220px] sm:w-[360px]" alt="" />
+        <div className="landing-about-caption px-[55px] mt-[40px] sm:px-0 sm:mt-0">
+          <h2 className="font-semibold text-[20px] sm:text-[30px]">About Me</h2>
+          <h2 className="text-justify text-[14px] mt-[20px] sm:text-[18px] sm:mt-[29px]">
             I'm Muhammad Faried Gunawan, a Computer Science student at Telkom University, born in Jakarta on September 11, 2004. I'm an aspiring software engineer, specializing in UI/UX design and frontend development, with hands-on
             experience from various projects. I'm a self-taught learner and have also undergone training in Cisco network infrastructure, React Native mobile app development, and software modeling workshops. My passion for technology drives
             me to continuously innovate and create.
           </h2>
-          <h2 className="text-justify text-[14px] font-semibold mt-[20px]">Personalities : INTJ-A</h2>
+          <h2 className="text-justify text-[14px] font-semibold mt-[20px] sm:text-[20px] sm:mt-[29px]">Personalities : INTJ-A</h2>
           <div className="about-me-read mt-[20px]">
-            <h2 className="flex items-center text-[16px] text-[#4CAF4F]">
+            <h2 className="flex items-center text-[16px] text-[#4CAF4F] sm:text-[20px]">
               Read More{" "}
               <span>
                 {" "}
